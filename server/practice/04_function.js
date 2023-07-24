@@ -20,3 +20,12 @@ const greeting = function(name = "Anonymous") {
 }
 console.log(greeting("Huisu"));
 console.log(greeting());
+
+// 2. 매개변수와 인자의 갯수 불일치 허용
+const divide = function (num1, num2) {
+    return num1 / num2;
+}
+console.log(divide());
+console.log(divide(1));
+console.log(divide(1, 2));
+console.log(divide(1, 2, 3));
