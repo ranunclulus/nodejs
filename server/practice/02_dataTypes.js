@@ -35,3 +35,21 @@ let answer = null;
 // undefined
 // 값이 정의되지 않을 때 임시적으로 데이터가 비어 버릴 때
 let answerNotDefined;
+
+// Object
+// JSON의 Object를 부르는 말과 동일
+const person = {
+    firstName: 'huisu',
+    lastName: 'Joe',
+    age: 23,
+    "phone number": "010-1234-5678"
+}
+
+// 객체의 요소에 접근할 때는 . 또는 []을 사용한다
+console.log(person.firstName);
+console.log(person["lastName"]);
+
+// Array
+// 순서가 보장되는 배열
+// int[]
+const numbers = [1, 2, 3, 4, 5];
